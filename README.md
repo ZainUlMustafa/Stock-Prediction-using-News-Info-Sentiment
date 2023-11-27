@@ -1,4 +1,5 @@
 # Stock Prediction using News Info Sentiment
+![Results](./output.png)
 
 <b>Approach for LSTM</b><br>
 Concept is the one right shift approach. Understanding is that: this algorithm what basically learn is if you give x amount of input columns, it learns to basically shift one of the column that we intent to predict from 0 to len(x)-1 while only predicting one value which exist in last index.
