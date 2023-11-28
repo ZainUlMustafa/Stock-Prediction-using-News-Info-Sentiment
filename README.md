@@ -1,13 +1,14 @@
 # Stock Prediction using News Info Sentiment
+![Results](./output.png)
 
 <b>Approach for LSTM</b><br>
-Concept is the one right shift approach. Understanding is that: this algorithm what basically learn is if you give x amount of input columns, it learns to basically shift one of the column that we intent to predict from 0 to len(x)-1 while only predicting one value which exist in last index.
+The dataset is structured to feed historical sequences of feature values to the LSTM model, allowing it to learn patterns over time. The LSTM model is then trained to predict the target variable (e.g., the future stock price) based on the historical information. The normalization step ensures that all values are within a consistent range, which can improve the training process for neural networks.
 
 <hr>
 
 <b>News Integration</b><br>
 Wall Street reports that: Political factors that range from relations with other nations to government policies can affect share prices.
-If you closely look at the headlines.json and headlines_june.json: whenever government took any initiative, shares rise. CPEC for an instance has caused alomost doubling up of stock prices in the last five years.
+If you closely look at the headlines.json: whenever government took any initiative, shares rise. CPEC for an instance has caused alomost doubling up of stock prices in the last five years.
 
 Zeeshan Afzal, head of research at Insight Securities says: "The phenomenal performance is linked to fast-paced GDP growth, which surged from 3.8 percent in FY2013 to 5.8 percent in FY2017, soft inflation coupled with historic low-interest rates which gave impetus to growth, industrial growth, multi-billion dollars CPEC (China-Pakistan Economic Corridor) projects and improvement in law and order situation."
 
