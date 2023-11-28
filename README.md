@@ -1,5 +1,4 @@
 # Stock Prediction using News Info Sentiment
-<br>
 ![Results](./output.png)
 
 ## How to run?
