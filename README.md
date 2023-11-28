@@ -1,4 +1,4 @@
-# Stock Prediction using News Info Sentiment
+# Stock Prediction using News Info Sentiment (LSTM)
 ![Results](./output.png)
 
 ## How to run?
